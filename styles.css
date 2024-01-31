@@ -30,6 +30,8 @@ ul {
 
 ul li a {
     padding: 0 20px;
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 
@@ -65,4 +67,105 @@ h4 {
 #rightcontent {
     position: relative;
     right: 1.6em;
+}
+
+#peripherals {
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+h2 {
+    margin-top: 2em;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.squareimg {
+    width: 220px;
+    height: 220;
+    border: solid 4px #3882F6;
+    border-radius: 15px;
+}
+
+#imgpos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4em 15em 0;
+}
+
+figcaption {
+    margin: 0 1.5em;
+}
+
+.subtextdecor {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#faker {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding: 3em 5em 6em;
+}
+
+#player {
+    align-self: flex-end;
+    font-size: 34px;
+    font-weight: bold;
+    margin: -5em 6em 2em 6em;
+}
+
+#cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    color: #F9FAF8;
+}
+
+#ctatext {
+    margin-right: 20px;
+    background-color: #3882F6;
+    padding: 2em 12em;
+    border-radius: 10px;
+    
+}
+#ctatext h5 {
+    font-size: 24px;
+}
+
+#ctatext p {
+    font-size: 18px;
+}
+
+#ctabtn {
+    background-color: #3882F6;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: #F9FAF8 solid;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 2em 5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #F9FAF8;
+    font-size: 20px;
 }
